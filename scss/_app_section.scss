@@ -1,0 +1,21 @@
+.app__data {
+  text-align: center;
+  .app__description {
+    margin-bottom: $mb-5;
+  }
+
+  .app__stores {
+    margin-bottom: $mb-4;
+    .app__store {
+      width: 150px;
+      margin: 0 $mb-1;
+      transform: translateZ(0);
+    }
+  }
+}
+
+.app__img {
+  width: 250px;
+  justify-self: center;
+  transform: translateZ(0);
+}
